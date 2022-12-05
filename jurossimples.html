@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/jsimples.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <title>Juros Simples</title>
+</head>
+
+<body class="corpo">
+    <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+        <a class="navbar-brand" href="#"></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="introducao.html">Introdução</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="logaritmo.html">Logaritmos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="jurossimples.html">Juros Simples</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="juroscompostos.html">Juros Compostos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="funcaolog.html">Funções Logarítmicas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="localizacao.html">Localização</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="autoavaliacao.html">Auto Avaliação</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="referencias.html">Referências</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <br />
+    <br />
+    <div class="container">
+        <h4>Matemática Financeira</h4>
+        <h5><i>“A Matemática Financeira tem por objetivo estudar a evolução do valor do <br />
+                dinheiro ao longo do tempo”(DAL ZOT, 2006).</i></h5>
+        <h5>Para entendermos os juros simples e os juros compostos que irão aparecer aqui, <br />
+            precisamos entender alguns conceitos que são importantes na Matemática Financeira <br />
+            para o entendimento das situações e também na hora do desenvolvimento. São cinco <br />
+            conceitos, e são eles:</h5>
+        <ol>
+            <li>Capital inicial (C), também podemos ver Principal (P) ou Valor Presente <br />
+                (PV (Present Value)) - É o valor inicial ou valor atual de um empréstimo ou <br />
+                também de uma aplicação.</li>
+            <li>Prazo (n) - É o tempo de duração do empréstimo ou do investimento.</li>
+            <li>Juro (J) - É o rendimento do valor aplicado.</li>
+            <li>Taxa de Juros (i) - É a taxa percentual ou unitária do rendimento do capital.</li>
+            <li>Montante (M) - É o valor final de uma aplicação.</li>
+        </ol>
+        <br />
+        <h5>Também possuímos o Regime de Capitalização, e ele é o ato de adicionar juros ao capital, <br />
+            podemos ver ele de duas formas, com a capitalização simples que é os juros simples, e com <br />
+            a capitalização composta que é os juros compostos. A capitalização simples é uma função <br />
+            com crescimento linear, já a capitalização composta é uma função com crescimento exponencial.</h5>
+        <br />
+        <br />
+        <h4>Juros Simples</h4>
+        <h5>Juros simples é a cobrança sobre o montante do empréstimo ou investimento. <br />
+            Para podermos fazer cálculos com os juros simples, precisamos usar três
+            fórmulas, que são elas:</h5>
+        <ol>
+            <li>J = C * i * n</li>
+            <li>M = C + J</li>
+            <li>M = C (1 + i * n)</li>
+        </ol>
+        <h5>Algumas vezes passamos por situações em que a taxa e o prazo estão em tempos <br />
+            diferentes, e por isso fazemos cálculo com eles, os transformando em um <br />
+            mesmo período.</h5>
+        <h5>Veja um exemplo: <br />
+            Uma pessoa aplicou R$ 750,00 em um banco que remunera a uma taxa de juros <br />
+            simples de 1,3% ao mês. Sabendo-se que o prazo da aplicação foi de 105 dias, <br />
+            qual foi o montante recebido pela pessoa? <br />
+            Dados: <br />
+            C = 750 <br />
+            i = 1,3% a. m. = 0,013 <br />
+            n = 105 dias (diferente do i) <br />
+            105 / 30 = 3,5 meses <br />
+            M = ? <br />
+            <br />
+            Cálculo: <br />
+            M = C (1 + i * n) <br />
+            M = 750 (1 + 0,013 * 3,5) <br />
+            M = 750 (1 + 0,0455) <br />
+            M = 750 * 1,0455 <br />
+            M = 784,13
+        </h5>
+        <br />
+        <h5>O gráfico do juros simples tem crescimento linear, ou seja, o rendimento de cada <br />
+            período de capitalização vai ser sempre o mesmo.</h5>
+        <br />
+        <br />
+    </div>
+</body>
+
+</html>

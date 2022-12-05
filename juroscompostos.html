@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/jcomposto.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <title>Juros Compostos</title>
+</head>
+
+<body class="corpo">
+    <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+        <a class="navbar-brand" href="#"></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="introducao.html">Introdução</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="logaritmo.html">Logaritmos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="jurossimples.html">Juros Simples</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="juroscompostos.html">Juros Compostos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="funcaolog.html">Funções Logarítmicas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="localizacao.html">Localização</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="autoavaliacao.html">Auto Avaliação</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="referencias.html">Referências</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <br />
+    <div class="container">
+        <h4>Juros Compostos</h4>
+        <h5>Juros compostos é a cobrança sobre o montante do empréstimo e dos juros <br />
+            aplicados sobre ele, no caso o famoso “Juros sobre juros”. <br />
+            Para podermos fazer cálculos com os juros compostos, precisamos usar <br />
+            duas fórmulas, que são elas:</h5>
+        <ol>
+            <li>M = C (1 + i)<sup>n</sup> </li>
+            <li>M = J + C</li>
+        </ol>
+        <h5>Um exemplo que temos do montante é:</h5>
+        <h5>Qual o montante de uma aplicação à juros compostos de <br />
+            R$15.000,00, pelo prazo de 9 meses, à taxa de 2% ao mês.</h5>
+        <h5>Dados: M = ? <br />
+            C = 15000 <br />
+            n = 9m <br />
+            i = 2% a.m. = 0,02 <br />
+            <br />
+            Calculo: <br />
+            M = C (1 + i)<sup>n</sup> <br />
+            M = 15000 (1 + 0,02)<sup>9</sup> <br />
+            M = 15000 (1,02)<sup>9</sup> <br />
+            M = 17.926,35
+        </h5>
+        <br />
+        <h5>Diferente dos prazos e taxas com tempo diferente dos juros simples, <br />
+            por conta do n, o valor vai sempre dar diferente, isso ocorre pois <br />
+            o N é convertido de forma que fique no mesmo tempo de capitalização <br />
+            da taxa dada
+        </h5>
+        <img src="imagens/Jcomposto.jpeg">
+        <br />
+        <h5>O gráfico dos juros compostos tem crescimento exponencial, ou seja, <br />
+            a cada período, o rendimento será sempre maior que o anterior.</h5>
+            <br />
+            <br />
+    </div>
+</body>
+
+</html>
